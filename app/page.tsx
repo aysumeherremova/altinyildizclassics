@@ -19,6 +19,8 @@ import { Badge } from "@/components/ui/badge";
 import { HeroCarousel } from "@/components/HeroCarousel";
 import FlashProducts from "@/components/FlashProducts";
 import GiftGuide from "@/components/GiftGuide";
+import PhotoCard from "@/components/PhotoCard";
+import PhotoCard1 from "@/components/PhotoCard1";
 
 export default function HomePage() {
   return (
@@ -139,7 +141,16 @@ export default function HomePage() {
       <section className="p-0 m-0">
         <GiftGuide />
       </section>
-      
+
+      {/* Photo Card */}
+      <section className="mt-2">
+        <PhotoCard />
+      </section>
+
+       <section className="mt-2">
+        <PhotoCard1 />
+      </section>
+
     </div>
   );
 }

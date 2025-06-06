@@ -5,7 +5,7 @@ export default function GiftGuide() {
     <div className="w-full">
       <img
         src="/gift-guide.jpg"
-        alt="Hədiyyə Rəhbəri"
+        alt="Gift Guide"
         className="w-full h-auto rounded-lg shadow-md"
       />
     </div>

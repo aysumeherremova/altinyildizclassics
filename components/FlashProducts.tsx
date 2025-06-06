@@ -139,7 +139,7 @@ export default function FlashProducts() {
   const combinedItems = [...coupons, ...products];
 
   return (
-    <div className="min-h-screen bg-white py-10 relative">
+        <div className="min-h-screen bg-white py-10 overflow-hidden">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl font-bold uppercase border-gray-300 pb-2 mb-6">
           Flaş Ürünler
