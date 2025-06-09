@@ -113,7 +113,14 @@ const Footer: React.FC = () => {
           <img src="/troy.svg" alt="troy" className="h-8" />
           <img src="/express.png" alt="express" className="h-8" />
           <img src="/pcilogo2.png" alt="pci" className="h-8" />
-          <img src="/qrcode.jpeg" alt="qr" className="h-8" />
+
+          <a
+            href="https://www.eticaret.gov.tr/siteprofil/F4C6C3E39C1B457893E19527AA89DBEA/wwwaltinyildizclassicscom"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/qrcode.jpeg" alt="qr" className="h-8 cursor-pointer" />
+          </a>
         </div>
 
         <hr className="my-8 h-[2px] bg-gray-500 border-0" />
