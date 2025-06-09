@@ -42,7 +42,6 @@ const StyledImageLeft = styled.img`
   }
 `;
 
-
 const StyledImageRight2 = styled(StyledImage)`
   @media (min-width: 768px) {
     width: 33.33%;
@@ -62,7 +61,7 @@ export default function SuitCards() {
         <StyledImage src="/takım1.jpeg" alt="Suit Card 1" />
         <StyledImage src="/takim2.jpeg" alt="Suit Card 2" />
       </Container>
-      
+
       <StyledImageLeft src="stiliniyansit.jpg" />
       <StyledImageLeft src="/takım3.jpg" alt="Suit Card 3" />
 
@@ -71,8 +70,12 @@ export default function SuitCards() {
         <StyledImageLeft3 src="/ayakkabi.jpg" alt="Ayakkabi" />
         <StyledImageRight2 src="/icgiyim.jpg" alt="Ic giyim" />
       </Container>
-         <StyledImageLeft src="onlineexclusive.jpg" />
-         <StyledImageLeft src="hemenindir.jpeg"/>
+      <StyledImageLeft src="onlineexclusive.jpg" />
+      <StyledImageLeft src="hemenindir.jpeg" />
+      <h2 className="text-center text-lg font-medium">
+        Mağazalarımızdan Değişim | Havale ile Ödeme | Ücretsiz Terzi Hizmeti |
+        Kapıda Ödeme
+      </h2>
     </Wrapper>
   );
 }
