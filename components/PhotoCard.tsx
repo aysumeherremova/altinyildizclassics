@@ -20,15 +20,12 @@ const Container = styled.div`
 
 // Hər bir şəkil üçün stil
 const StyledImage = styled.img`
-  width: 100%;
+  width: 50%;
   height: auto;
-  max-height: 500px;
-  object-fit: cover;
-
-  @media (min-width: 768px) {
-    width: 50%;
-  }
+  object-fit: contain;
+  display: block;
 `;
+
 
 const StyledImageLeft1 = styled.img`
   width: 100%;
