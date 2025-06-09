@@ -1,7 +1,6 @@
 "use client";
 import styled from "styled-components";
 
-// Ümumi wrapper scroll-u gizlədir
 const Wrapper = styled.div`
   width: 100%;
   overflow-x: hidden;
@@ -42,12 +41,14 @@ const StyledImageRight = styled.img`
   }
 `;
 
-export default function PhotoCard1() {
+
+export default function PhotoCard3() {
   return (
     <Wrapper>
       <Container>
-        <StyledImageLeft src="/photo-card3.jpg" alt="Photo Card 3" />
-        <StyledImageRight src="/photo-card4.jpg" alt="Photo Card 4" />
+        <StyledImageLeft src="/photo-card6.jpg" alt="Photo Card 6" />
+        <StyledImageRight src="/photo-card7.jpg" alt="Photo Card 7" />
+        <StyledImageLeft src="/photo-card8.jpg" alt="Photo Card 8" />
       </Container>
     </Wrapper>
   );
