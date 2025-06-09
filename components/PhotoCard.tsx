@@ -41,7 +41,6 @@ const StyledImageLeft1 = styled.img`
   }
 `;
 
-// İkinci şəkil üçün stil (75%)
 const StyledImageRight1 = styled.img`
   width: 100%;
   height: auto;
@@ -64,9 +63,6 @@ const StyledImageLeft2 = styled.img`
   }
 `;
 
-
-
-// Birinci şəkil üçün stil (25%)
 const StyledImageLeft3 = styled.img`
   width: 100%;
   height: auto;
